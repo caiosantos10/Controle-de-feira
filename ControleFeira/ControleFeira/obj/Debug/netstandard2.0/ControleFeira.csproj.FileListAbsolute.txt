@@ -9,3 +9,15 @@ C:\Users\Caio\source\repos\ControleFeira\ControleFeira\ControleFeira\bin\Debug\n
 C:\Users\Caio\source\repos\ControleFeira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Caio\source\repos\ControleFeira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\ControleFeira.dll
 C:\Users\Caio\source\repos\ControleFeira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\ControleFeira.pdb
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\bin\Debug\netstandard2.0\ControleFeira.deps.json
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\bin\Debug\netstandard2.0\ControleFeira.dll
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\bin\Debug\netstandard2.0\ControleFeira.pdb
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\ControleFeira.csprojAssemblyReference.cache
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\ControleFeira.csproj.CoreCompileInputs.cache
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\ControleFeira.AssemblyInfoInputs.cache
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\ControleFeira.AssemblyInfo.cs
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\ControleFeira.dll
+C:\Users\Caio\Desktop\Controle-de-feira\ControleFeira\ControleFeira\obj\Debug\netstandard2.0\ControleFeira.pdb

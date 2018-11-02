@@ -534,11 +534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira\\ControleFeira.csproj",
+      "projectUniqueName": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira\\ControleFeira.csproj",
       "projectName": "ControleFeira",
-      "projectPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira\\ControleFeira.csproj",
+      "projectPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira\\ControleFeira.csproj",
       "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira\\obj\\",
+      "outputPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

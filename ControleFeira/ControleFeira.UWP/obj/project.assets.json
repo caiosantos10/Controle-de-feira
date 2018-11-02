@@ -8221,11 +8221,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira.UWP\\ControleFeira.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira.UWP\\ControleFeira.UWP.csproj",
       "projectName": "ControleFeira.UWP",
-      "projectPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira.UWP\\ControleFeira.UWP.csproj",
+      "projectPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira.UWP\\ControleFeira.UWP.csproj",
       "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira.UWP\\obj\\",
+      "outputPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8245,8 +8245,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira\\ControleFeira.csproj": {
-              "projectPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira\\ControleFeira.csproj"
+            "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira\\ControleFeira.csproj": {
+              "projectPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira\\ControleFeira.csproj"
             }
           }
         }

@@ -1010,11 +1010,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira.Android\\ControleFeira.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira.Android\\ControleFeira.Android.csproj",
       "projectName": "ControleFeira.Android",
-      "projectPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira.Android\\ControleFeira.Android.csproj",
+      "projectPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira.Android\\ControleFeira.Android.csproj",
       "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira.Android\\obj\\",
+      "outputPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1031,8 +1031,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira\\ControleFeira.csproj": {
-              "projectPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira\\ControleFeira.csproj"
+            "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira\\ControleFeira.csproj": {
+              "projectPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira\\ControleFeira.csproj"
             }
           }
         }

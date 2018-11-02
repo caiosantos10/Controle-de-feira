@@ -1110,11 +1110,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira.iOS\\ControleFeira.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira.iOS\\ControleFeira.iOS.csproj",
       "projectName": "ControleFeira.iOS",
-      "projectPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira.iOS\\ControleFeira.iOS.csproj",
+      "projectPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira.iOS\\ControleFeira.iOS.csproj",
       "packagesPath": "C:\\Users\\Caio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira.iOS\\obj\\",
+      "outputPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1131,8 +1131,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira\\ControleFeira.csproj": {
-              "projectPath": "C:\\Users\\Caio\\source\\repos\\ControleFeira\\ControleFeira\\ControleFeira\\ControleFeira.csproj"
+            "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira\\ControleFeira.csproj": {
+              "projectPath": "C:\\Users\\Caio\\Desktop\\Controle-de-feira\\ControleFeira\\ControleFeira\\ControleFeira.csproj"
             }
           }
         }
