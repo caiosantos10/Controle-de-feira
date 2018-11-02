@@ -6,6 +6,14 @@ namespace ControleFeira.ViewModel
 {
     class Model : MainViewModel
     {
+        private string _id;
+
+        public string Id
+        {
+            get { return _id; }
+            set { SetProperty(ref _id, value); }
+        }
+
         private string _info;
 
         public string Info

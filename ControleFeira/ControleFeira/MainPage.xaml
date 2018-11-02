@@ -8,11 +8,17 @@
         <ListView x:Name="ListView">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Info}"/>
+                    <TextCell Text="{Binding Info}">
+                        <TextCell.ContextActions>
+                            <MenuItem Text="Atualizar" Clicked="MenuItemAtualizar_OnClicked" CommandParameter="{Binding .}" IsDestructive="False" />
+                            <MenuItem Text="Apagar" Clicked="MenuItemApagar_OnClicked" CommandParameter="{Binding .}" IsDestructive="True" />
+                        </TextCell.ContextActions>
+                    </TextCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button Text="Inserir" Clicked="Button_OnClicked" />
+        <Button Text="Adicionar" Clicked="ButtonAdicionar_OnClicked" />
+        <Button Text="Apagar tudo" Clicked="ButtonApagarTudo_OnClicked" />
     </StackLayout>
 
 </ContentPage>

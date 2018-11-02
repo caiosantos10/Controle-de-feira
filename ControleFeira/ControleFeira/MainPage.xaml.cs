@@ -18,17 +18,42 @@ namespace ControleFeira
         /* Faz uma consulta na tabela informacoes do banco de dados, resgatando os dados que estão no campo info */
         private void CarregarInformacoes()
         {
-            var list = ((App)Application.Current).Conexao.Query<Model>("select info from informacoes");
+            var list = ((App)Application.Current).Conexao.Query<Model>("select * from informacoes");
             ListView.ItemsSource = list;
         }
 
         // Cria uma query insert para inserir o horário atual no banco de dados
-        private void Button_OnClicked(object sender, EventArgs e)
+        private void ButtonAdicionar_OnClicked(object sender, EventArgs e)
         {
             var query = $"insert into informacoes (info) values ('{DateTime.Now:yyyy-MM-dd HH:mm:ss.ffff}')";
 
             ((App)Application.Current).Conexao.Execute(query);
             CarregarInformacoes();
         }
+
+        // Apaga toda a tabela informacoes
+        private void ButtonApagarTudo_OnClicked(object sender, EventArgs e)
+        {
+            ((App)Application.Current).Conexao.Execute("delete from informacoes");
+            CarregarInformacoes();
+        }
+
+        private void MenuItemAtualizar_OnClicked(object sender, EventArgs e)
+        {
+            var menuItem = (MenuItem)sender;
+            var model = (Model)menuItem.CommandParameter;
+            var result = ((App)Application.Current).Conexao.Execute("update informacoes set info = ? where id = ?", $"{DateTime.Now:yyyy-MM-dd HH:mm:ss.ffff}", model.Id);
+            CarregarInformacoes();
+        }
+
+        private void MenuItemApagar_OnClicked(object sender, EventArgs e)
+        {
+            var menuItem = (MenuItem)sender;
+            var model = (Model)menuItem.CommandParameter;
+            ((App)Application.Current).Conexao.Execute("delete from informacoes where id = ?", model.Id);
+            CarregarInformacoes();
+        }
+
+
     }
 }

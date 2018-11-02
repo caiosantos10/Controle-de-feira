@@ -10,8 +10,8 @@ namespace ControleFeira
 {
     public partial class App : Application
     {
-        /* propriedade usada para acessar o banco de dados dentro da aplicação */
-        public SQLiteConnection Conexao { get; private set; }
+        /* propriedade GET ONLY usada para acessar o banco de dados dentro da aplicação */
+        public SQLiteConnection Conexao { get; }
 
         public App()
         {
