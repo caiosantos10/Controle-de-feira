@@ -5,3 +5,27 @@ C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\App.g.cs
 C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\Controle de Feira_MarkupCompile.cache
 C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\Controle de Feira_MarkupCompile.lref
 C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Controle de Feira.exe.config
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Controle de Feira.exe
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Controle de Feira.pdb
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\MaterialDesignColors.dll
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\CadastroView.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\LoginView.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\MenuView.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\App.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira_MarkupCompile.cache
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira_MarkupCompile.lref
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\App.baml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\CadastroView.baml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\LoginView.baml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\MenuView.baml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.g.resources
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle_de_Feira.Properties.Resources.resources
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.csproj.GenerateResource.cache
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.csproj.CoreCompileInputs.cache
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.csproj.CopyComplete
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.exe
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.pdb

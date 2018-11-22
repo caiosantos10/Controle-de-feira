@@ -10,14 +10,13 @@
         Title="Login" Height="400" Width="600" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True" Background="Transparent" WindowStartupLocation="CenterScreen">
     <Grid>
         <Rectangle Fill="White"/>
-        <Image Source="Assets/welcome.jpeg" Margin="310,0,0,0" Stretch="UniformToFill"/>
         <Rectangle Margin="310,0,0,0">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF8EA6D7" Offset="0.22"/>
+                    <GradientStop Color="#FF8EA6D7" Offset="0.098"/>
                     <GradientStop Color="#FFBABAD7"/>
-                    <GradientStop Color="#FF307CD6" Offset="0.64"/>
-                    <GradientStop Color="#FFA7A7D9" Offset="0.896"/>
+                    <GradientStop Color="#FF007ACC" Offset="0.525"/>
+                    <GradientStop Color="#FFABABE1" Offset="1"/>
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
@@ -48,10 +47,10 @@
 
         </StackPanel>
         <StackPanel Margin="310,50,0,50">
-            <TextBlock Text="Bem Vindo" Foreground="White" HorizontalAlignment="Center" FontSize="48" FontFamily="Champagne &amp; Limousines" FontWeight="Bold"/>
-            <TextBlock Text="Tornar o impossível possível, o possível fácil e o fácil elegante" Foreground="White" HorizontalAlignment="Center" Width="280" FontSize="24" FontFamily="Champagne &amp; Limousines" TextWrapping="Wrap" TextAlignment="Center" Margin="0,50,0,0"/>
+            <TextBlock Text="Olá!" Foreground="White" HorizontalAlignment="Center" FontSize="48" FontFamily="Champagne &amp; Limousines" FontWeight="Bold"/>
+            <TextBlock Text="Faça seu cadastro e aproveite nossos serviços!" Foreground="White" HorizontalAlignment="Center" Width="280" FontSize="28" FontFamily="Champagne &amp; Limousines" TextWrapping="Wrap" TextAlignment="Center" Margin="0,50,0,0"/>
         </StackPanel>
-        <Button HorizontalAlignment="Center" Content="CADASTRAR" FontFamily="Impact" FontSize="18" Width="100" Background="#FF307CD6" BorderBrush="#FF307CD6" Margin="110,321,390,50"/>
+        <Button HorizontalAlignment="Center" Content="CADASTRAR" FontFamily="Impact" FontSize="18" Width="100" Background="#FF007ACC" BorderBrush="#FF307CD6" Margin="110,316,390,50" Foreground="#FFFBF3F3"/>
     </Grid>
 
 </Window>

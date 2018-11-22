@@ -10,14 +10,13 @@
         Title="Login" Height="379" Width="600" ResizeMode="NoResize" WindowStyle="None" AllowsTransparency="True" Background="Transparent" WindowStartupLocation="CenterScreen">
     <Grid Margin="0,0,0,10">
         <Rectangle Fill="White"/>
-        <Image Source="Assets/welcome.jpeg" Margin="310,0,0,0" Stretch="UniformToFill"/>
         <Rectangle Margin="310,0,0,0">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                    <GradientStop Color="#FF8EA6D7" Offset="0.22"/>
+                    <GradientStop Color="#FF8EA6D7" Offset="0.098"/>
                     <GradientStop Color="#FFBABAD7"/>
-                    <GradientStop Color="#FF307CD6" Offset="0.64"/>
-                    <GradientStop Color="#FFA7A7D9" Offset="0.896"/>
+                    <GradientStop Color="#FF007ACC" Offset="0.525"/>
+                    <GradientStop Color="#FFABABE1" Offset="1"/>
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
@@ -39,11 +38,11 @@
             <Grid>
                 <CheckBox Content="Lembre-se de mim" Margin="5,10" Foreground="#707070"/>
             </Grid>
-            <Button Margin="0,15" HorizontalAlignment="Center" Content="LOGIN" FontFamily="Impact" FontSize="18" Width="100" Background="#FF307CD6" BorderBrush="#FF307CD6"/>
+            <Button Margin="0,15" HorizontalAlignment="Center" Content="LOGIN" FontFamily="Impact" FontSize="18" Width="100" Background="#FF007ACC" BorderBrush="#FF307CD6" Foreground="#FFECE6E6"/>
         </StackPanel>
-        <StackPanel Margin="310,50,0,50">
+        <StackPanel Margin="310,50,0,43.667">
             <TextBlock Text="Bem Vindo" Foreground="White" HorizontalAlignment="Center" FontSize="48" FontFamily="Champagne &amp; Limousines" FontWeight="Bold"/>
-            <TextBlock Text="Tornar o impossível possível, o possível fácil e o fácil elegante" Foreground="White" HorizontalAlignment="Center" Width="280" FontSize="24" FontFamily="Champagne &amp; Limousines" TextWrapping="Wrap" TextAlignment="Center" Margin="0,50,0,0"/>
+            <TextBlock Text="Torne seu Controle de Feira fácil e elegante!" Foreground="White" HorizontalAlignment="Center" Width="280" FontSize="28" FontFamily="Champagne &amp; Limousines" TextWrapping="Wrap" TextAlignment="Center" Margin="5,50,5,0" Height="101" RenderTransformOrigin="0.502,0.747"/>
         </StackPanel>
     </Grid>
 </Window>
