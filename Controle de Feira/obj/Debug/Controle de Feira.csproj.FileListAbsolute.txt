@@ -1,0 +1,7 @@
+C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\Controle de Feira.csprojAssemblyReference.cache
+C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\Views\CadastroView.g.cs
+C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\Views\LoginView.g.cs
+C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\App.g.cs
+C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\Controle de Feira_MarkupCompile.cache
+C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\Controle de Feira_MarkupCompile.lref
+C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\GeneratedInternalTypeHelper.g.cs
