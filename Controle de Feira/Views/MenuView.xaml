@@ -48,7 +48,7 @@
 
 
     <Grid Background="#FF515151">
-        <Grid Height="60" VerticalAlignment="Top" Background="#FF304FFE">
+        <Grid Height="60" VerticalAlignment="Top" Background="#FF007ACC">
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="1" ShadowDepth="1" Color="#FFACACAC"/>
             </Grid.Effect>
@@ -56,11 +56,10 @@
                 <TextBlock Text="Nome De Usuário" VerticalAlignment="Center" FontSize="16" Foreground="#FFFDF7F7"/>
                 <materialDesign:PopupBox PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Margin="10" Foreground="#FFF1E7E7" Background="#FFA5A5A8">
                     <StackPanel Width="150">
-                        <Button Content="Settings"/>
-                        <Button Content="Account"/>
-                        <Button Content="Help"/>
+                        <Button Content="Minha Conta"/>
+                        <Button Content="Ajuda"/>
                         <Separator/>
-                        <Button Content="Logout"/>
+                        <Button Content="Sair"/>
                     </StackPanel>
                 </materialDesign:PopupBox>
             </StackPanel>
@@ -95,7 +94,7 @@
                         <Rectangle x:Name="rectangle2" Width="30" Height="5" Margin="0 10 0 0" Fill="#FF515151" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                     </Grid>
                 </Button>
-                <ListView Margin="0,120" x:Name="ListViewMenu" Foreground="#FF5C99D6" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
+                <ListView Margin="0,120" x:Name="ListViewMenu" Foreground="#FF007ACC" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
                     <ListViewItem x:Name="ItemHome" Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="ViewDashboard" Height="25" Width="25" Margin="10"/>

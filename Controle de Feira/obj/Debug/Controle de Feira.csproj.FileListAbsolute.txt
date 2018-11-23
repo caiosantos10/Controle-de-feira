@@ -8,14 +8,22 @@ C:\Users\Caio\Desktop\Controle de Feira\Controle de Feira\obj\Debug\GeneratedInt
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Controle de Feira.exe.config
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Controle de Feira.exe
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Controle de Feira.pdb
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Caliburn.Micro.dll
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Caliburn.Micro.Platform.dll
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\MaterialDesignColors.dll
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Caliburn.Micro.xml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\Caliburn.Micro.Platform.Core.xml
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\CadastroView.g.cs
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\LoginView.g.cs
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\MenuView.g.cs
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\App.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira_MarkupCompile.cache
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira_MarkupCompile.lref
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\App.baml

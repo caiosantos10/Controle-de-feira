@@ -28,11 +28,11 @@
             <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="#707070"><Run Text="isso levará menos de 1 minuto."/></TextBlock>
             <StackPanel Margin="0,25,0,0" Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Account" VerticalAlignment="Center" Foreground="#707070"/>
-                <TextBox materialDesign:HintAssist.Hint="Usuário" Width="250" Margin="5" Height="24" RenderTransformOrigin="0.452,5.625" Padding="0"/>
+                <TextBox materialDesign:HintAssist.Hint="Nome de Usuário" Width="250" Margin="5" Height="24" RenderTransformOrigin="0.452,5.625" Padding="0"/>
             </StackPanel>
             <StackPanel Margin="0,1" Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Account" VerticalAlignment="Center" Foreground="#707070"/>
-                <TextBox materialDesign:HintAssist.Hint="Usuário" Width="250" Margin="5" Height="24"/>
+                <TextBox materialDesign:HintAssist.Hint="Email" Width="250" Margin="5" Height="24"/>
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Key" VerticalAlignment="Center" Foreground="#707070"/>
@@ -40,7 +40,7 @@
             </StackPanel>
             <StackPanel Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Key" VerticalAlignment="Center" Foreground="#707070"/>
-                <PasswordBox materialDesign:HintAssist.Hint="Senha" Width="250" Margin="5" Height="24"/>
+                <PasswordBox materialDesign:HintAssist.Hint="Confirme sua senha" Width="250" Margin="5" Height="24"/>
             </StackPanel>
             <Grid/>
 
@@ -50,7 +50,7 @@
             <TextBlock Text="Olá!" Foreground="White" HorizontalAlignment="Center" FontSize="48" FontFamily="Champagne &amp; Limousines" FontWeight="Bold"/>
             <TextBlock Text="Faça seu cadastro e aproveite nossos serviços!" Foreground="White" HorizontalAlignment="Center" Width="280" FontSize="28" FontFamily="Champagne &amp; Limousines" TextWrapping="Wrap" TextAlignment="Center" Margin="0,50,0,0"/>
         </StackPanel>
-        <Button HorizontalAlignment="Center" Content="CADASTRAR" FontFamily="Impact" FontSize="18" Width="100" Background="#FF007ACC" BorderBrush="#FF307CD6" Margin="110,316,390,50" Foreground="#FFFBF3F3"/>
+        <Button HorizontalAlignment="Center" Content="CADASTRAR" FontFamily="Impact" FontSize="18" Width="119" Background="#FF007ACC" BorderBrush="#FF307CD6" Margin="98,303,383,61" Foreground="#FFFBF3F3" Height="Auto"/>
     </Grid>
 
 </Window>
