@@ -29,3 +29,4 @@ C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de 
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.csproj.CopyComplete
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.exe
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.pdb
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.csprojAssemblyReference.cache

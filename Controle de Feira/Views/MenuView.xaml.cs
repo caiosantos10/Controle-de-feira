@@ -9,6 +9,7 @@ using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
+using System.Windows.Media.Animation;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
@@ -19,21 +20,27 @@ namespace Controle_de_Feira.Views
     /// </summary>
     public partial class MenuView : Window
     {
+        bool StateClosed = true;
+
         public MenuView()
         {
             InitializeComponent();
         }
 
-        private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
+        private void ButtonMenu_Click(object sender, RoutedEventArgs e)
         {
-            ButtonCloseMenu.Visibility = Visibility.Visible;
-            ButtonOpenMenu.Visibility = Visibility.Collapsed;
-        }
+            if (StateClosed)
+            {
+                Storyboard sb = this.FindResource("OpenMenu") as Storyboard;
+                sb.Begin();
+            }
+            else
+            {
+                Storyboard sb = this.FindResource("CloseMenu") as Storyboard;
+                sb.Begin();
+            }
 
-        private void ButtonCloseMenu_Click(object sender, RoutedEventArgs e)
-        {
-            ButtonCloseMenu.Visibility = Visibility.Collapsed;
-            ButtonOpenMenu.Visibility = Visibility.Visible;
+            StateClosed = !StateClosed;
         }
     }
 }
