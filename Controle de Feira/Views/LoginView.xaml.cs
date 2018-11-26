@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Controle_de_Feira.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,11 @@ namespace Controle_de_Feira.Views
         public LoginView()
         {
             InitializeComponent();
+        }
+
+        private void TextBlock_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            App.Bootstrapper.Init(new CadastroViewModel());
         }
     }
 }

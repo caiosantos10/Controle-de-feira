@@ -6,7 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:Controle_de_Feira.Views"
         mc:Ignorable="d"
-        Title="LoginView" Height="379" Width="600" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" Background="Transparent" WindowStartupLocation="CenterScreen">
+        Title="Controle de Feira" Icon="C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\assets\market-icon-24.png" Height="379" Width="600" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" Background="Transparent" WindowStartupLocation="CenterScreen">
     <Grid Margin="10,0,0,10">
         <Grid.RowDefinitions>
             <RowDefinition Height="168*"/>
@@ -32,21 +32,19 @@
             <Label Content="Login" FontFamily="Segoe UI Black" FontSize="24" Margin="-4,10" VerticalAlignment="Top" HorizontalAlignment="Left"/>
             <StackPanel Orientation="Horizontal">
                 <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="#707070"><Run Text="Não possui uma conta? "/></TextBlock>
-                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="#FF2468AC"><Run Text="Crie uma conta,"/></TextBlock>
+                <TextBlock PreviewMouseDown="TextBlock_MouseLeftButtonDown" HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="#FF2468AC" Cursor="Hand"><Run Text="Crie uma conta,"/></TextBlock>
             </StackPanel>
             <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="#707070"><Run Text="isso levará menos de 1 minto."/></TextBlock>
             <StackPanel Margin="-4,15" Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Account" VerticalAlignment="Center" Foreground="#707070"/>
-                <TextBox materialDesign:HintAssist.Hint="Usuário" Width="233" Margin="5" Height="24"/>
+                <TextBox x:Name="Name" materialDesign:HintAssist.Hint="Usuário" Width="233" Margin="5" Height="24"/>
             </StackPanel>
             <StackPanel Margin="-4" Orientation="Horizontal">
                 <materialDesign:PackIcon Kind="Key" VerticalAlignment="Center" Foreground="#707070"/>
-                <PasswordBox materialDesign:HintAssist.Hint="Senha" Width="233" Margin="5" Height="24"/>
+                <PasswordBox x:Name="Password" materialDesign:HintAssist.Hint="Senha" Width="233" Margin="5" Height="24"/>
             </StackPanel>
-            <Grid>
-                <CheckBox Content="Lembre-se de mim" Margin="5,10" Foreground="#707070"/>
-            </Grid>
-            <Button Margin="-8,15" HorizontalAlignment="Center" Content="LOGIN" FontFamily="Impact" FontSize="18" Width="100" Background="#FF007ACC" BorderBrush="#FF307CD6" Foreground="#FFECE6E6"/>
+            <Grid/>
+            <Button x:Name="Login" Margin="83,45,114,15" HorizontalAlignment="Center" Content="LOGIN" FontFamily="Impact" FontSize="18" Width="95" Background="#FF007ACC" BorderBrush="#FF307CD6" Foreground="#FFECE6E6"/>
         </StackPanel>
         <StackPanel Margin="80,50,0,44" Grid.Column="2" Grid.RowSpan="2">
             <TextBlock Text="Bem Vindo" Foreground="White" HorizontalAlignment="Center" FontSize="48" FontFamily="Champagne &amp; Limousines" FontWeight="Bold" Margin="13,0"/>

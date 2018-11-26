@@ -13,5 +13,13 @@ namespace Controle_de_Feira
     /// </summary>
     public partial class App : Application
     {
+        public static Bootstrapper Bootstrapper;
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            Bootstrapper = new Bootstrapper();
+            base.OnStartup(e);
+        }
+
     }
 }

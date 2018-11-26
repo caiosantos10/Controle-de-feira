@@ -6,7 +6,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:Controle_de_Feira.Views"
         mc:Ignorable="d"
-        Title="MenuView" Height="600" Width="1080" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" Foreground="White">
+        Title="Controle de Feira" Icon="C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\assets\market-icon-24.png" Height="600" Width="1080" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen" WindowStyle="SingleBorderWindow" Foreground="White">
     <Window.Resources>
         <Storyboard x:Key="OpenMenu">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="rectangle">
