@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\App.xaml
-3-1315953370
+7-1558514782
 
-16235463846
+25-1343697774
 132119151778
-Views\CadastroView.xaml;Views\LoginView.xaml;Views\MenuView.xaml;
+Views\CadastroView.xaml;Views\CarrinhoView.xaml;Views\DispensaView.xaml;Views\HistoricoView.xaml;Views\LoginView.xaml;Views\MenuView.xaml;Views\ProdutosView.xaml;
 
 True
 

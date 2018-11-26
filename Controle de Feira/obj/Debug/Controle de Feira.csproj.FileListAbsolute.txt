@@ -146,3 +146,11 @@ C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de 
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.exe
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.pdb
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Controle de Feira.csprojAssemblyReference.cache
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\CarrinhoView.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\DispensaView.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\HistoricoView.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\ProdutosView.g.cs
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\CarrinhoView.baml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\DispensaView.baml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\HistoricoView.baml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\ProdutosView.baml

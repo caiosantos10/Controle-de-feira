@@ -7,7 +7,26 @@ using System.Threading.Tasks;
 
 namespace Controle_de_Feira.ViewModels
 {
-    class MenuViewModel : Screen
+    class MenuViewModel : Conductor<object>
     {
+        public void ShowDispensaScreen()
+        {
+            ActivateItem(new DispensaViewModel());
+        }
+
+        public void ShowCarrinhoScreen()
+        {
+            ActivateItem(new CarrinhoViewModel());
+        }
+
+        public void ShowHistoricoScreen()
+        {
+            ActivateItem(new HistoricoViewModel());
+        }
+
+        public void ShowProdutosScreen()
+        {
+            App.Bootstrapper.Init(new CadastroViewModel());
+        }
     }
 }

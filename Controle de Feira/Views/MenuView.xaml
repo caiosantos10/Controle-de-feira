@@ -95,28 +95,28 @@
                     </Grid>
                 </Button>
                 <ListView Margin="0,120" x:Name="ListViewMenu" Foreground="#FF007ACC" ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
-                    <ListViewItem x:Name="ItemHome" Height="60">
+                    <ListViewItem Height="60">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="ViewDashboard" Height="25" Width="25" Margin="10"/>
-                            <TextBlock Text="Home" VerticalAlignment="Center" Margin="20 10"/>
+                            <Button Content="Dispensa" x:Name="ShowDispensa" VerticalAlignment="Center" Margin="20 10" Background="#FF0C1964" BorderBrush="#FF0C1964" Foreground="#FF007ACC"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem x:Name="ItemCreate" Height="60">
                         <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Pencil" Height="25" Width="25" Margin="10"/>
-                            <TextBlock Text="Create" VerticalAlignment="Center" Margin="20 10"/>
+                            <materialDesign:PackIcon Kind="ShoppingCart" Height="25" Width="25" Margin="10"/>
+                            <Button Content="Carrinho" x:Name="ShowCarrinho" VerticalAlignment="Center" Margin="20 10" Background="#FF0C1964" BorderBrush="#FF0C1964" Foreground="#FF007ACC"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Height="60">
                         <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Ticket" Height="25" Width="25" Margin="10"/>
-                            <TextBlock Text="Tickets" VerticalAlignment="Center"  Margin="20 10"/>
+                            <materialDesign:PackIcon Kind="History" Height="25" Width="25" Margin="10"/>
+                            <Button Content="Histórico" x:Name="ShowHistorico" VerticalAlignment="Center"  Margin="20 10" Background="#FF0C1964" BorderBrush="#FF0C1964" Foreground="#FF007ACC"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Height="60">
                         <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Message" Height="25" Width="25" Margin="10"/>
-                            <TextBlock Text="Messages" VerticalAlignment="Center"  Margin="20 10"/>
+                            <materialDesign:PackIcon Kind="PackageDown" Height="25" Width="25" Margin="10"/>
+                            <Button x:Name="ShowProdutosScreen" Content="Produtos" VerticalAlignment="Center"  Margin="20 10" Background="#FF0C1964" BorderBrush="#FF0C1964" Foreground="#FF007ACC"/>
                         </StackPanel>
                     </ListViewItem>
                 </ListView>
