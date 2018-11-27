@@ -14,6 +14,12 @@ namespace Controle_de_Feira.Models
             Database.SetInitializer<Context>(new DropCreateDatabaseIfModelChanges<Context>());  
         }
 
-        public DbSet <Usuario> Usuario{ get; set; }
+        public DbSet <Usuario> Usuarios{ get; set; }
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            //Write Fluent API configurations here
+
+        }
     }
 }
