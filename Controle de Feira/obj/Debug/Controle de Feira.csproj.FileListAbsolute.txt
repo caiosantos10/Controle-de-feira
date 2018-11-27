@@ -154,3 +154,5 @@ C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\Carrin
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\DispensaView.baml
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\HistoricoView.baml
 C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\obj\Debug\Views\ProdutosView.baml
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Users\Caio\Desktop\Controle-de-feira\Controle de Feira\bin\Debug\EntityFramework6.Npgsql.xml

@@ -16,10 +16,6 @@ namespace Controle_de_Feira.Models
 
         public DbSet <Usuario> Usuarios{ get; set; }
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            //Write Fluent API configurations here
-
-        }
+        
     }
 }

@@ -8,22 +8,16 @@ using System.Threading.Tasks;
 
 namespace Controle_de_Feira.Models
 {
-    [Table("Usuarios")]
+    
     class Usuario
     {
-        [Key]
+        
         public string UsuarioID { get; set; }
 
-        [Column("Name", TypeName = "ntext")]
-        [MaxLength(20)]
         public string UsuarioName { get; set; }
 
-        [Column("Email", TypeName = "ntext")]
-        [MaxLength(20)]
         public string UsuarioEmail { get; set; }
 
-        [Column("Senha", TypeName = "int")]
-        [MaxLength(20)]
         public string UsuarioSenha { get; set; }
         
 

@@ -1,4 +1,6 @@
 ﻿using Caliburn.Micro;
+using Controle_de_Feira.Models;
+using Controle_de_Feira.Service;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +15,12 @@ namespace Controle_de_Feira.ViewModels
         private string email;
         private string password;
         private string confirmPassword;
+        private UsuarioService _userService;
+
+        public CadastroViewModel()
+        {
+            _userService = new UsuarioService();
+        }
 
         public string ConfirmPassword
         {
@@ -68,6 +76,12 @@ namespace Controle_de_Feira.ViewModels
 
         public void Cadastrar(string name, string password)
         {
+            _userService.saveItem(new Usuario()
+            {
+                UsuarioName = name,
+                UsuarioSenha= password
+            });
+
             App.Bootstrapper.Init(new LoginViewModel());
             this.TryClose();
 
