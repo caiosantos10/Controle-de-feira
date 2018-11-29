@@ -3,10 +3,52 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:ControleFeira.Views"
         mc:Ignorable="d"
-        Title="CadastroView" Height="450" Width="800">
+        Title="Cadastro"  Height="400" Width="600" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" Background="Transparent" WindowStartupLocation="CenterScreen">
     <Grid>
-        
+        <Rectangle Fill="White"/>
+        <Rectangle Margin="286,0,0,0">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF8EA6D7" Offset="0.098"/>
+                    <GradientStop Color="#FFBABAD7"/>
+                    <GradientStop Color="#FF007ACC" Offset="0.525"/>
+                    <GradientStop Color="#FFABABE1" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <StackPanel Margin="10,10,290,10">
+            <Label Content="Cadastro" FontFamily="Segoe UI Black" FontSize="24" Margin="-8,10" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="Gray"><Run Text="Crie sua conta,"/></TextBlock>
+            </StackPanel>
+            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Top" TextWrapping="Wrap" Foreground="#707070"><Run Text="isso levará menos de 1 minuto."/></TextBlock>
+            <StackPanel Margin="0,25,0,0" Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Account" VerticalAlignment="Center" Foreground="#707070"/>
+                <TextBox x:Name="Name" materialDesign:HintAssist.Hint="Nome de Usuário" Width="233" Margin="5" Height="24" RenderTransformOrigin="0.452,5.625" Padding="0"/>
+            </StackPanel>
+            <StackPanel Margin="0,1" Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Account" VerticalAlignment="Center" Foreground="#707070"/>
+                <TextBox x:Name="Email" materialDesign:HintAssist.Hint="Email" Width="233" Margin="5" Height="24"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Key" VerticalAlignment="Center" Foreground="#707070"/>
+                <PasswordBox x:Name="Senha" materialDesign:HintAssist.Hint="Senha" Width="233" Margin="5" Height="24"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <materialDesign:PackIcon Kind="Key" VerticalAlignment="Center" Foreground="#707070"/>
+                <PasswordBox x:Name="ConfirmSenha" materialDesign:HintAssist.Hint="Confirme sua senha" Width="233" Margin="5" Height="24"/>
+            </StackPanel>
+            <Grid/>
+
+
+        </StackPanel>
+        <StackPanel Margin="310,50,0,50">
+            <TextBlock Text="Olá!" Foreground="White" HorizontalAlignment="Center" FontSize="48" FontFamily="Champagne &amp; Limousines" FontWeight="Bold"/>
+            <TextBlock Text="Faça seu cadastro e aproveite nossos serviços!" Foreground="White" HorizontalAlignment="Center" Width="280" FontSize="28" FontFamily="Champagne &amp; Limousines" TextWrapping="Wrap" TextAlignment="Center" Margin="0,50,0,0"/>
+        </StackPanel>
+        <Button x:Name="Cadastrar" HorizontalAlignment="Center" Content="CADASTRAR" FontFamily="Impact" FontSize="18" Width="119" Background="#FF007ACC" BorderBrush="#FF307CD6" Margin="88,295,387,37" Foreground="#FFFBF3F3" Height="Auto"/>
     </Grid>
 </Window>

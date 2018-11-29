@@ -9,16 +9,24 @@ using System.Windows;
 
 namespace ControleFeira
 {
-    class Bootstrapper : BootstrapperBase
+    public class Bootstrapper : BootstrapperBase
     {
         public Bootstrapper()
         {
             Initialize();
         }
 
+        private IWindowManager windowManager = new WindowManager();
+
         protected override void OnStartup(object sender, StartupEventArgs e)
         {
-            DisplayRootViewFor<LoginViewModel>();
+            Init(new LoginViewModel());
         }
+
+        public void Init(object viewModel)
+        {
+            windowManager.ShowWindow(viewModel);
+        }
+
     }
 }

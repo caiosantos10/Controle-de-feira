@@ -1,4 +1,5 @@
-﻿using ControleFeira.Models;
+﻿using Caliburn.Micro;
+using ControleFeira.Models;
 using ControleFeira.Service;
 using System;
 using System.Collections.Generic;
@@ -9,12 +10,29 @@ using System.Threading.Tasks;
 
 namespace ControleFeira.ViewModels
 {
-    class CadastroViewModel 
+    class CadastroViewModel  : Screen
     {
-        private UsuarioService _usuario;
+        private UsuarioService usuarioService;
         private string name;
         private string senha;
         private string confirmSenha;
+        private string email;
+
+        public CadastroViewModel()
+        {
+            usuarioService = new UsuarioService();
+        }
+
+        public string Email
+        {
+            get { return email; }
+            set
+            {
+                email = value;
+                NotifyOfPropertyChange(() => Email);
+            }
+        }
+
 
         public string ConfirmSenha
         {
@@ -22,6 +40,8 @@ namespace ControleFeira.ViewModels
             set
             {
                 confirmSenha = value;
+                NotifyOfPropertyChange(() => ConfirmSenha);
+                
             }
         }
 
@@ -31,6 +51,7 @@ namespace ControleFeira.ViewModels
             set
             {
                 senha = value;
+                NotifyOfPropertyChange(() => Senha);
             }
         }
 
@@ -41,10 +62,59 @@ namespace ControleFeira.ViewModels
             set
             {
                 name = value;
+                NotifyOfPropertyChange(() => Name);
             }
         }
 
+        private bool validaCadastro()
+        {
 
+            return usuarioService.validaCadastroUser(new UsuarioModel()
+            {
+                UsuarioName = Name,
+                UsuarioSenha = Senha
+            }); //Verifica se já existe um username igual no bd 
+        }
+
+        private void clearAllText()
+        {
+            Name = "";
+            Email = "";
+            Senha = "";
+            ConfirmSenha = "";
+        }
+
+        public bool CanCadastrar()
+        {
+            if (string.IsNullOrEmpty(Name) && string.IsNullOrEmpty(Senha) && string.IsNullOrEmpty(ConfirmSenha) && !Senha.Equals(ConfirmSenha))
+            {
+                return false;
+            }
+
+            return true;
+            
+        }
+
+
+        public void Cadastrar(string name)
+        {
+            if (validaCadastro())
+            {
+                usuarioService.saveItem(new UsuarioModel()
+                {
+                    UsuarioName = Name,
+                    UsuarioEmail = Email,
+                    UsuarioSenha = Senha
+                });
+
+                clearAllText();
+            }
+            else
+            {
+
+            }
+
+        }
 
     }
 }

@@ -49,5 +49,37 @@ namespace ControleFeira.Service
                 ctx.SaveChanges();
             }
         }
+
+        public UsuarioModel gerUserByUsername(string email)
+        {
+            using (var ctx = new ControleFeiraContext())
+            {
+                return ctx.Usuarios.FirstOrDefault(u => u.UsuarioEmail.Equals(email));
+            }
+        }
+
+        public bool validaCadastroUser(UsuarioModel user)
+        {
+            if (gerUserByUsername(user.UsuarioEmail) == null)
+                return true;
+            else
+            {
+                return false;
+            }
+        }
+
+        public bool validaLoginUser(UsuarioModel user)
+        {
+            var userResult = gerUserByUsername(user.UsuarioEmail);
+            if (userResult != null)
+            {
+                return userResult.UsuarioSenha.Equals(user.UsuarioSenha);
+            }
+
+            return false;
+        }
+
+
+
     }
 }

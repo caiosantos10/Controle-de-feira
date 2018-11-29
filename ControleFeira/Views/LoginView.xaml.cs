@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ControleFeira.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,11 @@ namespace ControleFeira.Views
         public LoginView()
         {
             InitializeComponent();
+        }
+
+        private void NovaConta_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            App.Bootstrapper.Init(new CadastroViewModel());
         }
     }
 }
