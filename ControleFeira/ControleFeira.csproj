@@ -79,6 +79,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Service\IEntityService.cs" />
+    <Compile Include="Service\UsuarioService.cs" />
+    <Compile Include="ViewModels\CadastroViewModel.cs" />
+    <Compile Include="ViewModels\LoginViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -94,7 +98,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\Usuario.cs" />
+    <Compile Include="Models\UsuarioModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -119,7 +123,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

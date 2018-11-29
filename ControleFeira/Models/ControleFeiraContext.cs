@@ -15,6 +15,6 @@ namespace ControleFeira
             Database.SetInitializer<ControleFeiraContext>(new DropCreateDatabaseIfModelChanges<ControleFeiraContext>());
         }
 
-        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<UsuarioModel> Usuarios { get; set; }
     }
 }

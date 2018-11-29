@@ -30,10 +30,16 @@ namespace ControleFeira
         {
             using (var ctx = new ControleFeiraContext())
             {
-                var stud = new Usuario() { UsuarioName = "Bill" };
+                //var stud = new UsuarioModel();
+                //stud.UsuarioID = 2;
+                //stud.UsuarioName = "Bill";
+                //stud.UsuarioSenha = "123";
+                //stud.UsuarioEmail = "bill@hotmail.com";
 
-                ctx.Usuarios.Add(stud);
-                ctx.SaveChanges();
+                //ctx.Entry(stud).State = System.Data.Entity.EntityState.Deleted;
+                //ctx.SaveChanges();
+
+                ctx.Usuarios.ToList().ForEach(user => Console.WriteLine(user.UsuarioName));
             }
         }
     }
